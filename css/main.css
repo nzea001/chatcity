@@ -1,0 +1,270 @@
+
+
+body{
+	background-color: #121011;
+	font-size:15px;
+	line-height:1.5;
+	font-family: 'Raleway', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+
+
+/**********************header*********************/
+
+header {
+	background-color: #121011;
+	color:#ffffff;
+	min-height:70px;
+	padding-top: 30px;
+
+}
+
+header .fa-spotify {
+	font-size: 20px;
+	color:#81b71a;
+}
+
+header .spotifylink a {
+	font-size: 20px;
+	color:#81b71a;
+	text-decoration: none;
+}
+
+.spotifylink {
+	float:left;
+	padding-left: 80px;
+}
+
+header nav {
+	float: right;
+	padding-right: 80px;
+}
+
+ul {
+	margin:0;
+	padding:0;
+}
+
+header li {
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+	color:#ffffff;
+}
+
+header nav ul li a {
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+header nav a:hover {
+	color:#81b71a;
+	font-weight: bold;
+}
+
+/****************main image and title********************/
+#maintop {
+	min-height:400px;
+	padding-top: 30px;
+}
+
+.main-image {
+	min-height: 300px;
+	float:right;
+	padding-top: 20px;
+	padding-right: 80px;
+}
+
+.main-image img {
+	border-radius: 10px;
+}
+
+#main-title {
+	float: left;
+	padding-left: 80px;
+}
+
+#main-title h4 {
+ 	color:#ffffff;
+ 	font-size:30px;
+ 	font-family: 'Permanent Marker', cursive;
+ 	padding-top: 25px;
+ }
+
+ #main-title p {
+ 	color: #ffffff;
+ 	font-size: 20px;
+	text-align: left;
+ 	line-height: 30px;
+ 	width:400px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+}
+
+/****************episodes********************/
+
+#episodes {
+	padding-top:70px;
+	clear: both;
+}
+
+#episodes h4 {
+ 	color:#ffffff;
+ 	font-family: 'Permanent Marker', cursive;
+ 	font-size:35px;
+ 	text-align: center;
+ 	
+
+ }
+
+ #episodes .city img {
+ 	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 20px;
+ }
+
+ .third-width {
+ 	float: left;
+ 	text-align: center;
+ 	padding:35px;
+ 	padding-top: 35px;
+ 	width:25%;
+ 	margin-left: 40px;
+ }
+
+ .third-width h2 {
+ 	 font-family: 'Permanent Marker', cursive;
+ 	 color: #ffffff;
+}
+
+#episodes .third-width p {
+ 	color:#ffffff;
+ 	font-size:18px
+ 	text-align:center;
+ 	padding:15px 90px 0 0;
+ 	width: 250px;
+ 	margin:auto;
+ 	margin-left: 60px;
+ }
+
+.third-width img {
+	width:300px;
+	border-radius: 10px;
+}
+
+/**********************about**********************/
+
+#about {
+	min-height:500px;
+	clear: both;
+	padding-top: 50px;
+}
+
+#about img {
+	min-height: 300px;
+	float:right;
+	padding-top: 50px;
+	padding-right: 80px;
+	border-radius: 10px;
+}
+
+#about h2 {
+ 	color:#ffffff;
+ 	font-size:35px;
+ 	text-align: left;
+ 	font-family: 'Permanent Marker', cursive;
+ 	padding-top: 85px;
+ 	padding-left: 80px;
+ }
+
+  #about p {
+ 	color:#ffffff;
+ 	width:400px;
+ 	line-height: 30px;
+ 	text-align:left;
+ 	font-size: 20px;
+ 	margin-left:20px
+ 	margin-top:50px;
+ 	letter-spacing: 2px;
+ 	padding-left: 80px;
+ }
+
+ /*********************footer****************/
+
+ #contact {
+ 	min-height:300px;
+ 	background-color: #0065e0;
+ 	clear: both;
+ 	margin-top: 150px;
+ }
+
+ .box, .chat-with-me {
+ 	float: left;
+ 	padding:25px;
+ 	width:30%;
+ 	text-align: center;
+
+ }
+
+
+ #contact h3 {
+ 	color:#ffffff;
+ 	padding: 20px 0 0 0;
+ 	font-family: 'Permanent Marker', cursive;
+ 	font-size: 30px;
+ 	text-align: center;
+
+ }
+
+ .box h4{
+ 	color:#ffffff;
+ 	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+	letter-spacing: 2px;
+ 	font-size: 20px;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ }
+
+
+ .box ul {
+    list-style: none;
+    }
+
+.box ul li {
+     display: inline-block;
+     padding:12px;
+}
+.box ul img {
+    font-size: 32px;
+}
+
+#contact a {
+	color:#ffffff;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+#contact p {
+	 color:#ffffff;
+	 text-align: center;
+	 margin-bottom: 5px;
+	 padding-top: 60px;
+}
+
+/**************************contact icons****************************/
+
+.fa-itunes, .fa-spotify, .fa-instagram, .fa-facebook-square, .fa-envelope {
+	color:#ffffff;
+	font-size:40px;
+}
+
+.fa-envelope {
+	margin-left:20px;
+}
